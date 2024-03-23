@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cMath>
+#include <cmath> 
 
 using namespace std;
 
@@ -14,8 +14,10 @@ int main()
             cin >> a[i][j];
             if (a[i][j] == 1)
             {
-                cout << abs(2 - i) + abs(2 - j);
+                cout << abs(2 - i) + abs(2 - j); 
             }
         }
     }
+
+    return 0; // Added a return statement to indicate successful execution
 }
